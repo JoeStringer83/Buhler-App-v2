@@ -1,0 +1,13 @@
+.grid{
+    width: 100%;
+    padding-top: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.separator {
+    height: 10px;
+    background-color: rgb(0, 161, 161);
+}

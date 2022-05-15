@@ -1,0 +1,26 @@
+.layout {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    width: 10rem;
+    }
+
+.layout h4{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.status-icon{
+    margin: 0;
+}
+
+.filter-green{
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(100%) contrast(119%);
+}
+
+.filter-white{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}

@@ -1,0 +1,26 @@
+.grid{
+    margin: 0;
+    flex-wrap: nowrap;
+    width: fit-content;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.grid .col{
+    padding: 0;
+    margin: auto;
+    width: max-content;
+}
+
+p{
+    margin: 0;
+    padding-left: 0.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    width: fit-content;
+}

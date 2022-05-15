@@ -1,0 +1,29 @@
+<div [ngSwitch] = "machine.status">
+    <div *ngSwitchCase="'running'">
+        <div class="layout" style="background-color: lightgrey;">
+            <div class="status-icon">
+                <img src="../../../assets/images/{{machine.status}}.svg" class="filter-green">
+            </div>
+            <img src="../../../assets/images/{{machine.icon}}.svg" height="50px">
+            <h4>{{machine.name}}</h4>
+        </div>
+    </div>
+    <div *ngSwitchCase="'warning'">
+        <div class="layout" style="background-color: orange;">
+            <div class="status-icon">
+                <img src="../../../assets/images/{{machine.status}}.svg" class="filter-white">
+            </div>
+            <img src="../../../assets/images/{{machine.icon}}.svg" height="50px"  class="filter-white">
+            <h4 style="color:white">{{machine.name}}</h4>
+        </div>
+    </div>
+    <div *ngSwitchCase="'error'">
+        <div class="layout" style="background-color: red;">
+            <div class="status-icon">
+                <img src="../../../assets/images/{{machine.status}}.svg"  class="filter-white">
+            </div>
+            <img src="../../../assets/images/{{machine.icon}}.svg" height="50px"  class="filter-white">
+            <h4 style="color:white">{{machine.name}}</h4>
+        </div>
+    </div>
+</div>
