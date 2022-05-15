@@ -1,7 +1,5 @@
-.navbar{
+.layout{
     display: flex;
-    background-color: lightgray;
-    padding: 0;
-    margin: 0;
-    justify-content: flex-start;
+    flex-direction: row;
+    background-color: #d3d3d3;
 }

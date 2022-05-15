@@ -10,6 +10,8 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
 import { MachineNavComponent } from './navigation-bar/machine-nav/machine-nav.component';
 import { OverviewComponent } from './overview/overview.component';
 import { MachineOverviewComponent } from './overview/machine-overview/machine-overview.component';
+import { ConnectorsComponent } from './overview/connectors/connectors.component';
+import { DatePipe } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { MachineOverviewComponent } from './overview/machine-overview/machine-ov
     MachineNavComponent,
     OverviewComponent,
     MachineOverviewComponent,
+    ConnectorsComponent
   ],
   imports: [
     BrowserModule,

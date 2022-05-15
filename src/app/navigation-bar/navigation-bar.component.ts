@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Machine} from '../machine-def'
-import Machine_Data from '../../assets/machine-list.json'
+import {Machine_Data} from '../machine-list'
 
 @Component({
   selector: 'app-navigation-bar',
